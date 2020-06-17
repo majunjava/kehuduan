@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="hello_world">Hello world!</string>
+
+    <string name="skin_tabbar_icon_auth">首页</string>
+    <string name="skin_tabbar_icon_at">动态</string>
+    <string name="skin_tabbar_icon_space">消息</string>
+    <string name="skin_tabbar_icon_more">我的</string>
+</resources>

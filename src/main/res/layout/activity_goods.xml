@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:id="@+id/aa"
+     >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+<TextView
+    android:id="@+id/instructionedit"
+    android:layout_width="match_parent"
+    android:paddingTop="15dp"
+    android:paddingBottom="15dp"
+    android:text="这是名字。。。"
+    android:textSize="22dp"
+    android:layout_height="wrap_content" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+
+            android:background="#DBDBDB"/>
+        <TextView
+            android:id="@+id/infedit"
+            android:layout_width="match_parent"
+            android:text="price"
+            android:textSize="28dp"
+            android:textColor="#FF3030"
+
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/inf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="6dp"
+            android:textSize="22dp"
+            android:paddingTop="15dp"
+            android:text="这是介绍。。。hhhhhhhhhhhhhhhhhhhhhhhhhh"/>
+<ImageView
+    android:id="@+id/imagett"
+    android:layout_width="wrap_content"
+    android:layout_height="350dp"
+    android:layout_below="@+id/instructionedit"
+    />
+    </LinearLayout>
+    </ScrollView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        >
+        <Button
+            android:id="@+id/Button_talk"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="聊一聊"/>
+    <Button
+        android:id="@+id/Button_rent"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="立即租用"/>
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+     >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+        <EditText
+            android:id="@+id/centerEdit"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:hint="商品信息..."/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="6dp"
+            >
+            <ImageView
+                android:id="@+id/centerimg1"
+                android:layout_width="300px"
+                android:layout_height="300px"
+                android:scaleType="centerCrop"
+                android:paddingRight="10dp"
+               />
+
+        <ImageView
+            android:id="@+id/centerimg2"
+            android:layout_width="300px"
+            android:layout_height="300px"
+            android:scaleType="centerCrop"
+           />
+
+
+        </LinearLayout>
+
+            <Button
+                android:id="@+id/centerbutton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="添加照片"
+                android:textSize="18dp"
+                />
+            
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="地址："
+                    android:textSize="18dp"
+
+                    android:paddingLeft="20dp"
+                    android:layout_weight="1"/>
+                <EditText
+                    android:id="@+id/address"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:layout_weight="2"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="价格："
+                    android:textSize="18dp"
+                    android:paddingLeft="20dp"
+                    android:layout_weight="1"/>
+                <EditText
+                    android:id="@+id/prise"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <RadioGroup
+                    android:id="@+id/rg_sex"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingLeft="20dp"
+                    android:padding="10dp">
+
+                    <RadioButton
+                        android:id="@+id/fabu"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="发布" />
+
+                    <RadioButton
+                        android:id="@+id/rent"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:text="租用" />
+                </RadioGroup>
+
+            </LinearLayout>
+            <Button
+                android:id="@+id/tijiao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:text="提交"/>
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
